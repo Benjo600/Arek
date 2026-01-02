@@ -18,7 +18,7 @@ jobs:
           cache: 'npm'
       
       - name: Install dependencies
-        run: npm ci
+        run: npi nstall
       
       - name: Build
         run: npm run build
